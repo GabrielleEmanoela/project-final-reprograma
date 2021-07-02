@@ -1,9 +1,8 @@
+import React from 'react';
+import Routes from '../src/routes';
+
 function App() {
-  return (
-    <div className="App">
-      <p>Edit and save to reload.</p>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
