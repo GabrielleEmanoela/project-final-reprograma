@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import PageMain from '../views/main';
+import PageMain from '~/views/main';
 
 function Routes() {
   return (
