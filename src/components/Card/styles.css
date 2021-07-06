@@ -1,0 +1,48 @@
+.titleCard {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  color: #b73058;
+}
+.containerTitleCard {
+  margin-top: 15rem;
+  margin-left: 4rem;
+}
+.colorCard {
+  background-color: rgba(24, 9, 21, 0.2);
+}
+.containerCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.positionCard {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+  margin-top: 1rem;
+}
+.positonImg {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.positionText {
+  font-family: Heebo;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+  color: #b73058;
+  margin-left: 10rem;
+}
+.divCard {
+  width: 500px;
+  height: 292.12px;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  border: 2px solid #b73058;
+}
