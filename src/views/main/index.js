@@ -14,7 +14,7 @@ function Main() {
       <Header />
       <div>
         <div className="stylesImgDash">
-          <img src={imgDashBoard} alt="logoLove" width={300} />
+          <img src={imgDashBoard} alt="logoLove" width={350} />
         </div>
         <div className="containerTitle">
           <img src={icon} alt="logoLove" />
