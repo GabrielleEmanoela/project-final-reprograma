@@ -1,0 +1,44 @@
+.container {
+  position: absolute;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: linear-gradient(rgba(183, 48, 88, 0.2), rgba(183, 48, 88, 0.2)),
+    #b73058;
+}
+.logo {
+  position: absolute;
+  left: 45px;
+  top: 13px;
+}
+.headerList {
+  margin: 2rem;
+  margin-left: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerList li {
+  margin-left: 4rem;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 300px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react';
-import img1 from '~/assets/teste.png';
+import Header from '~/components/Header';
 
 function Main() {
-  return <img src={img1} alt="personagem simpson" />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default Main;
