@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img1 from '~/assets/love.png';
+import img1 from '~/assets/icon.png';
 import './styles.css';
 
 function Header() {
