@@ -27,12 +27,10 @@
 
 .link {
   text-decoration: none;
-  font-family: Noto Sans;
-  font-style: normal;
   font-weight: 300px;
   font-size: 18px;
   line-height: 25px;
-  color: #000000;
+  color: #ffff;
 }
 
 @media (max-width: 768px) {
