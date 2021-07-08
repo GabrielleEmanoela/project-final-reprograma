@@ -1,28 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 * {
-  font-family: Poppins;
+  font-family: 'Roboto', sans-serif;
 }
 .stylesImgDash {
   margin-left: 3rem;
   margin-top: 6rem;
   display: flex;
   margin-left: 7rem;
-  margin-top: 11rem;
 }
 .containerTitle {
   position: absolute;
   width: 689.81px;
   height: 255.53px;
   left: 45%;
-  top: 363.22px;
+  top: 323.22px;
   align-items: center;
   text-align: center;
 }
 .title {
   font-weight: bold;
   font-size: 60px;
-  line-height: 47px;
-  display: -ms-inline-flexbox;
   color: #b73058;
+  padding: 0px;
   transform: rotate(0.33deg);
 }
 .msg {
@@ -39,11 +39,11 @@
   align-items: center;
   font-weight: bold;
   margin-top: 1rem;
-  height: 40px;
+  height: 45px;
   width: 220px;
   border-radius: 50px;
   background-color: #b73058;
-  border: 1px solid #b73058;
+  border: 2px solid #b73058;
 }
 .pButton {
   margin-top: 0;
@@ -51,4 +51,13 @@
   line-height: 33px;
   font-weight: bold;
   color: aliceblue;
+}
+.teste {
+  position: absolute;
+  width: 713px;
+  height: 0px;
+  left: 504px;
+  /* top: 1370px; */
+  top: 57rem;
+  border: 2px solid #b73058;
 }
