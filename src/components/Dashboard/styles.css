@@ -38,7 +38,8 @@
   width: 220px;
   border-radius: 50px;
   background-color: #b73058;
-  border: 2px solid #b73058;
+  text-decoration: none;
+  border: none;
 }
 .pButton {
   margin-top: 0;
@@ -47,12 +48,11 @@
   font-weight: bold;
   color: aliceblue;
 }
-.teste {
+.components {
   position: absolute;
   width: 713px;
   height: 0px;
   left: 504px;
-  /* top: 1370px; */
   top: 57rem;
   border: 2px solid #b73058;
 }

@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import PageMain from '~/views/main';
-import Card from '~/components/Card';
+import Secondary from '~/views/secondary';
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route path="/" component={PageMain} />
-        <Route path="/Explore" component={Card} />
+        <Route exact path="/" component={PageMain} />
+        <Route path="/explore" component={Secondary} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

@@ -5,13 +5,6 @@ import icon from '~/assets/icon.png';
 import './styles.css';
 
 function Dashboard() {
-  function teste() {
-    return (
-      <Link className="link" to="Explore">
-        Explore
-      </Link>
-    );
-  }
   return (
     <div>
       <div className="stylesImgDash">
@@ -25,11 +18,13 @@ function Dashboard() {
           seu amigo, seu seguidor e praquele ou praquela crush que você sempre
           quis enviar 😉
         </p>
-        <button type="button" className="buttonConfirmation" onClick={teste}>
-          <p className="pButton">Vamos lá!</p>
+        <button type="button" className="buttonConfirmation">
+          <Link className="link" to="/explore">
+            Simbora
+          </Link>
         </button>
       </div>
-      <div className="teste" />
+      <div className="components" />
     </div>
   );
 }
