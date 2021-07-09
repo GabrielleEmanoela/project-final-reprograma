@@ -3,10 +3,7 @@
   line-height: 44px;
   color: #b73058;
 }
-.containerTitleCard {
-  margin-top: 15rem;
-  margin-left: 4rem;
-}
+
 .colorCard {
   background-color: rgba(17, 2, 14, 0.2);
 }
@@ -35,10 +32,23 @@
   margin-left: 10rem;
 }
 .divCard {
-  width: 500px;
+  width: 450px;
+  height: 354px;
+  left: 1010px;
+  top: 1615px;
+
+  background: #ffffff;
+  /* drop shadow */
+
+  box-shadow: 10px 40px 50px rgba(190, 196, 209, 0.4);
+  /* border-radius: 20px; */
+  /* width: 500px; */
   height: 292.12px;
   margin-top: 4rem;
   margin-left: 5rem;
   border-radius: 50px;
-  border: 2px solid #b73058;
+}
+#containerTitleCard {
+  margin-top: 15rem;
+  margin-left: 4rem;
 }

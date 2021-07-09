@@ -1,12 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import PageMain from '~/views/main';
+import Secondary from '~/views/secondary';
 
 function Routes() {
   return (
-    <BrowserRouter>
-      <Route path="/" component={PageMain} />
-    </BrowserRouter>
+    <HashRouter>
+      <Switch>
+        <Route exact path="/" component={PageMain} />
+        <Route path="/explore" component={Secondary} />
+      </Switch>
+    </HashRouter>
   );
 }
 

@@ -1,0 +1,51 @@
+.colorContainer {
+  height: 10rem;
+}
+.containerMain {
+  justify-content: center;
+  margin: 10rem 0rem 0rem 45rem;
+}
+* p {
+  font-style: normal;
+  color: #b73058;
+  font-weight: bold;
+  font-size: 26.8037px;
+}
+.input {
+  width: 518px;
+  height: 50px;
+  left: 561px;
+  top: 181px;
+  background: #ffffff;
+  border: 1px solid #cec0be;
+  box-sizing: border-box;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.containerDivision {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.containerimg {
+  height: 112px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+
+  background: linear-gradient(
+    177.48deg,
+    #ce7cad 6.72%,
+    #ff5f3c 48.69%,
+    #f7df0a 77.98%
+  );
+}
+.buttonFormulario {
+  width: 318px;
+  height: 50px;
+  color: #ffff;
+  left: 561px;
+  top: 732px;
+  background: #b73058;
+  margin: 2rem 0px 0px 7rem;
+  border-radius: 25px;
+}

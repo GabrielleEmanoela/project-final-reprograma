@@ -1,8 +1,24 @@
 .footerContainer {
   position: absolute;
   width: 1920px;
-  height: 80px;
+  height: 90px;
   left: 0px;
   margin-top: 3rem;
   background-color: #b73058;
+}
+.footerText {
+  color: aliceblue;
+  font-size: 18px;
+  align-items: center;
+}
+.divFooter {
+  margin-left: 45%;
+  margin-top: 1rem;
+}
+
+.footerText2 {
+  margin-left: 2rem;
+}
+.footerText1 {
+  margin-left: 2rem;
 }
