@@ -1,9 +1,9 @@
 .footerContainer {
   position: absolute;
   width: 1920px;
-  height: 90px;
+  height: 100px;
   left: 0px;
-  margin-top: 3rem;
+  margin-top: 5rem;
   background-color: #b73058;
 }
 .footerText {
@@ -17,8 +17,16 @@
 }
 
 .footerText2 {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
-.footerText1 {
-  margin-left: 2rem;
+
+a:hover {
+  background-color: #d8bfc8;
+}
+* a {
+  transition-property: background-color;
+  transition-duration: 0.6s;
+}
+.divFooter2 {
+  margin-left: 40%;
 }

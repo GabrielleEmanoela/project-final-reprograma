@@ -6,7 +6,7 @@ function Footer() {
     <div id="idSection" className="footerContainer">
       <div className="divFooter">
         <a
-          className="footerText1"
+          className="footerText2"
           href="https://www.linkedin.com/in/gabrielleemanoela/"
         >
           <img src="https://i.imgur.com/bTr4bqg.png" alt="logoLove" />
@@ -15,21 +15,13 @@ function Footer() {
           className="footerText2"
           href="https://www.linkedin.com/in/gabrielleemanoela/"
         >
-          <img src="https://i.imgur.com/8MsqGVE.png" alt="logoLove" />
+          <img src="https://i.imgur.com/DTmkVyO.png" alt="logoLove" />
         </a>
-        <a
-          className="footerText2"
-          href="https://www.linkedin.com/in/gabrielleemanoela/"
-        >
-          <img src="https://i.imgur.com/8MsqGVE.png" alt="logoLove" />
-        </a>
-        <a
-          className="footerText2"
-          href="https://www.linkedin.com/in/gabrielleemanoela/"
-        >
-          <img src="https://i.imgur.com/8MsqGVE.png" alt="logoLove" />
-        </a>
-        <p className="footerText">Desenvolvido por Gabrielle Emanoela.</p>
+      </div>
+      <div className="divFooter2">
+        <p className="footerText">
+          Desenvolvido com muito amor por Gabrielle Emanoela.
+        </p>
       </div>
     </div>
   );

@@ -1,39 +1,27 @@
 const loveCard = [
   {
     id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    img: 'https://i.imgur.com/2Poxra0.png',
   },
   {
-    id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    id: 2,
+    img: 'https://i.imgur.com/0F9ELKi.png',
   },
   {
-    id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    id: 3,
+    img: 'https://i.imgur.com/CCvkaMM.png',
   },
   {
-    id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    id: 4,
+    img: 'https://i.imgur.com/OVe6gyY.png',
   },
   {
-    id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    id: 5,
+    img: 'https://i.imgur.com/jIgfnHL.png',
   },
   {
-    id: 1,
-    name: 'Bob Esponja',
-    description: 'SpongeBob Squar',
-    img: 'https://i.pinimg.com/originals/29/2f/34/292f3413e702df98490e9829b343ee5a.jpg',
+    id: 6,
+    img: 'https://i.imgur.com/ortNqzD.png',
   },
 ];
 
