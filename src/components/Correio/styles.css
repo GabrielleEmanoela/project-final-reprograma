@@ -3,7 +3,7 @@
 }
 .containerMain {
   justify-content: center;
-  margin: 10rem 0rem 0rem 50rem;
+  margin: 10rem 0rem 0rem 45rem;
 }
 * p {
   font-style: normal;
@@ -54,4 +54,15 @@
 }
 .buttonFormulario:hover {
   color: #79054c;
+}
+
+@media (max-width: 1268px) {
+  .containerMain {
+    margin-left: 22rem;
+  }
+  @media (max-width: 568px) {
+    .containerMain {
+      margin-left: 0rem;
+    }
+  }
 }

@@ -56,3 +56,39 @@
   top: 55rem;
   border: 2px solid #b73058;
 }
+.imgDashbord {
+  width: 400px;
+}
+@media (max-width: 1368px) {
+  .imgDashbord {
+    width: 300px;
+  }
+  .stylesImgDash {
+    margin-left: 0px;
+  }
+  .containerTitle {
+    width: 600.81px;
+    height: 255.53px;
+    left: 35%;
+    top: 323.22px;
+    align-items: center;
+    text-align: center;
+  }
+  @media (max-width: 568px) {
+    .img1 {
+      display: none;
+    }
+    .imgDashbord {
+      display: none;
+    }
+    .title {
+      margin-left: 0rem;
+    }
+
+    .containerTitle {
+      display: table-row-group; /* font-size: 15px; */
+      position: inherit;
+      margin-left: 0rem;
+    }
+  }
+}

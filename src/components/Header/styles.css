@@ -43,7 +43,7 @@
   color: #79054c;
 }
 @media (max-width: 768px) {
-  .menu {
+  .headerList {
     margin: 2rem;
     display: flex;
     justify-content: flex-start;

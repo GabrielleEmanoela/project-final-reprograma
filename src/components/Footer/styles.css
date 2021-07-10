@@ -11,7 +11,7 @@
   font-size: 18px;
   align-items: center;
 }
-.divFooter {
+.sectionFooter {
   margin-left: 45%;
   margin-top: 1rem;
 }
@@ -29,4 +29,21 @@ a:hover {
 }
 .divFooter2 {
   margin-left: 40%;
+}
+@media (max-width: 1268px) {
+  .divFooter2 {
+    margin-left: 22rem;
+  }
+
+  .sectionFooter {
+    margin-left: 29rem;
+  }
+  @media (max-width: 788px) {
+    .divFooter2 {
+      margin-left: 2rem;
+    }
+    .sectionFooter {
+      margin-left: 7rem;
+    }
+  }
 }

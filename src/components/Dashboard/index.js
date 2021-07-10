@@ -8,10 +8,14 @@ function Dashboard() {
   return (
     <div>
       <div className="stylesImgDash">
-        <img src="https://i.imgur.com/2G4xjeF.png" alt="logoLove" width={400} />
+        <img
+          src="https://i.imgur.com/2G4xjeF.png"
+          alt="logoLove"
+          className="imgDashbord"
+        />
       </div>
       <div className="containerTitle">
-        <img src={icon} alt="logoLove" />
+        <img src={icon} alt="logoLove" className="img1" />
         <h1 className="title"> Supreenda seu amor </h1>
         <p className="msg">
           Chegou a hora de usar nossa criatividade e enviar uma mensagem para

@@ -5,7 +5,7 @@ import './styles.css';
 function Card() {
   return (
     <section>
-      <div id="containerTitleCard">
+      <div className="containerTitleCard">
         <h1 className="titleCard">
           Confira a frase ideal para você se inspirar, e não perca tempo na hora
           de

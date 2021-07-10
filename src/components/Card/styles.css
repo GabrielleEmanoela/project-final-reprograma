@@ -43,7 +43,13 @@
   margin-left: 5rem;
   border-radius: 50px;
 }
-#containerTitleCard {
+.containerTitleCard {
   margin-top: 15rem;
   margin-left: 13rem;
+}
+
+@media (max-width: 768px) {
+  .containerTitleCard {
+    margin-left: 0rem;
+  }
 }
