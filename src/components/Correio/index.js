@@ -15,13 +15,13 @@ function ContactUs() {
       )
       .then(
         (result) => {
-          alert('Enviado com sucesso. :)');
+          // alert('Enviado com sucesso. :)');
 
           console.tron.log(result.text);
         },
         (error) => {
           console.tron.log(error.text);
-          alert('Ops, alguma coisa deu errado confira o e-mail novamente:(');
+          // alert('Ops, alguma coisa deu errado confira o e-mail novamente:(');
         }
       );
     e.target.reset();
