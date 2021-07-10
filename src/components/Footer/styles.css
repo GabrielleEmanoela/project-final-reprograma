@@ -1,9 +1,9 @@
 .footerContainer {
   position: absolute;
   width: 1920px;
-  height: 90px;
+  height: 100px;
   left: 0px;
-  margin-top: 3rem;
+  margin-top: 5rem;
   background-color: #b73058;
 }
 .footerText {

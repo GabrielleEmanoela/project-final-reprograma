@@ -12,7 +12,7 @@ function Dashboard() {
       </div>
       <div className="containerTitle">
         <img src={icon} alt="logoLove" />
-        <h1 className="title"> Correio do Amor </h1>
+        <h1 className="title"> Supreenda seu amor </h1>
         <p className="msg">
           Chegou a hora de usar nossa criatividade e enviar uma mensagem para
           seu amigo, seu seguidor e praquele ou praquela crush que você sempre

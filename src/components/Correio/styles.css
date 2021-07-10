@@ -48,4 +48,10 @@
   background: #b73058;
   margin: 2rem 0px 0px 7rem;
   border-radius: 25px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  font-size: 18px;
+}
+.buttonFormulario:hover {
+  color: #79054c;
 }
