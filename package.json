@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "dependencies": {
     "bower": "^1.8.12",
-    "emailjs-com": "^3.2.0",
     "history": "^5.0.0",
     "install": "^0.13.0",
     "prop-types": "^15.7.2",
@@ -13,9 +12,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "reactotron-react-js": "^3.3.7",
-    "route": "^0.2.5",
-    "switch": "^0.0.0",
-    "yup": "^0.32.9"
+    "route": "^0.2.5"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -52,6 +49,9 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.3.2",
-    "react-app-rewired": "^2.1.8"
+    "react-app-rewired": "^2.1.8",
+    "switch": "^0.0.0",
+    "yup": "^0.32.9",
+    "emailjs-com": "^3.2.0"
   }
 }
