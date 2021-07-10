@@ -1,7 +1,7 @@
 .titleCard {
   font-size: 32px;
   line-height: 44px;
-  color: #b73058;
+  color: #887f81;
 }
 
 .colorCard {
@@ -45,5 +45,5 @@
 }
 #containerTitleCard {
   margin-top: 15rem;
-  margin-left: 4rem;
+  margin-left: 13rem;
 }

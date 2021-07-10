@@ -17,8 +17,16 @@
 }
 
 .footerText2 {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
-.footerText1 {
-  margin-left: 2rem;
+
+a:hover {
+  background-color: #d8bfc8;
+}
+* a {
+  transition-property: background-color;
+  transition-duration: 0.6s;
+}
+.divFooter2 {
+  margin-left: 40%;
 }
