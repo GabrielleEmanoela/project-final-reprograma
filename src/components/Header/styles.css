@@ -27,12 +27,21 @@
 
 .link {
   text-decoration: none;
+  color: #ffff;
+  list-style: none;
+  justify-content: space-around;
+  text-align: left;
   font-weight: 300px;
   font-size: 18px;
   line-height: 25px;
-  color: #ffff;
+
+  transition-property: color;
+  transition-duration: 0.5s;
 }
 
+.link:hover {
+  color: #79054c;
+}
 @media (max-width: 768px) {
   .menu {
     margin: 2rem;
